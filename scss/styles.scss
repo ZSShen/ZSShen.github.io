@@ -630,7 +630,7 @@ footer {
     -------------------------------
 */
 
-#projects {
+.projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -663,6 +663,13 @@ footer {
 
     h3 {
         font-size: 2.0em;
+        font-weight: 300;
+        color: $heading;
+        margin: 0 0 15px 0;
+    }
+
+    h4 {
+        font-size: 1.75em;
         font-weight: 300;
         color: $heading;
         margin: 0 0 15px 0;
@@ -999,3 +1006,18 @@ footer {
     }
 
 }
+
+/*
+.shiftbox {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 50%;
+    justify-content: center;
+
+    .shiftbox_item {
+        margin: 5px 15px;
+        width: 40%;
+        height: 20em;
+    }
+}
+*/
